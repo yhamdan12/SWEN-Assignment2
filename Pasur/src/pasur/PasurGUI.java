@@ -21,6 +21,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -308,8 +309,9 @@ public class PasurGUI implements PropertyChangeListener
     }
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException,
-            InstantiationException, IllegalAccessException
+            InstantiationException, IllegalAccessException, IOException
     {
+        LogController.getInstance().setupLogger();
         new PasurGUI().startGame();
     }
 }

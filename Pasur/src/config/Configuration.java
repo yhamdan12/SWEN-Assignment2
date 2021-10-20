@@ -1,8 +1,11 @@
 package config;
 
+import pasur.LogController;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.*;
 
 public class Configuration
 {
@@ -49,22 +52,27 @@ public class Configuration
                 inStream.close();
             }
         }
+        /*
+        Setting up an array list to store the player classes to allow
+        for future extension for more players
+         */
 
+        ArrayList<String> playerClasses = new ArrayList<String>();
         // Seed
         seed = Integer.parseInt(properties.getProperty(SEED_KEY));
-        System.out.println("#Seed: " + seed);
-
         // Animate
         animate = Boolean.parseBoolean(properties.getProperty(ANIMATE_KEY));
-        System.out.println("#Animate: " + animate);
 
         // Player0
         player0class = properties.getProperty(PLAYER0_KEY);
-        System.out.println("#Player0: " + player0class);
-
         // Player1
         player1class = properties.getProperty(PLAYER1_KEY);
-        System.out.println("#Player1: " + player1class);
+        // Adding player classes to the arraylist
+        playerClasses.add(player0class);
+        playerClasses.add(player1class);
+
+        LogController.getInstance().gameSettings(seed, animate,playerClasses);
+
     }
 
     public int getSeed()
