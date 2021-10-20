@@ -18,6 +18,11 @@ public abstract class Player
     protected Hand pickedCards;
     protected Hand surs;
 
+    //MODIFICATION
+    private RuleFactory ruleFactory;
+    private int totalScore = 0;
+    private int runningScore = 0;
+
     protected Player(int id)
     {
         this.id = id;
@@ -41,7 +46,7 @@ public abstract class Player
 
         return new AbstractMap.SimpleEntry<>(playedCard, cardsToPick);
     }
-
+    //modified
     protected Set<Card> pickCards(Hand pool, Card playedCard)
     {
         List<Card> poolCards = pool.getCardList();
@@ -219,6 +224,9 @@ public abstract class Player
 
     public void reset()
     {
+        //added
+        totalScore += runningScore;
+
         hand.removeAll(false);
         pickedCards.removeAll(false);
         surs.removeAll(false);
@@ -229,9 +237,16 @@ public abstract class Player
         return "Player" + id;
     }
 
+    //Modified
     public int getScore()
     {
-        return 0;
+        updateScore();
+        return totalScore + runningScore;
+    }
+
+    //added
+    public void updateScore(){
+        runningScore = ruleFactory.getInstance().getRule(getPickedCards(), getSurs()).getScore();
     }
 
     abstract Card selectToPlay();
