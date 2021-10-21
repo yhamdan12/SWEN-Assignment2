@@ -296,7 +296,7 @@ public class Pasur
 
         LogController.getInstance().logString("Game ends...");
         String winningText = winner.toString() + " is the winner!";
-
+        LogController.getInstance().logAll();
         propertyChangePublisher.firePropertyChange(ON_GAME_END, null, winningText);
 
         LogController.getInstance().logString(winningText);
