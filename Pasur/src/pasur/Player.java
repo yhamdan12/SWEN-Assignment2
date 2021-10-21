@@ -39,7 +39,7 @@ public abstract class Player
         Set<Card> cardsToPick = null;
         if(playedCard != null)
         {
-            LogController.getInstance().logString(toString() + " plays " + Pasur.toString(playedCard));
+            LogController.getInstance().logPlayersPlay(toString(),Pasur.toString(playedCard));
             cardsToPick = pickCards(pool, playedCard);
         }
 

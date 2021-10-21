@@ -1,4 +1,4 @@
-null#Seed 30006
+#Seed 30006
 #Animate true
 #Player 0: pasur.RandomPlayer
 #Player 1: pasur.RandomPlayer
@@ -6,8 +6,8 @@ Game Starts...
 Round 1 of the game starts...
 Total Running Scores: Player0 = 0 (0 Surs)        Player1 = 0 (0 Surs)
 Dealing out to players...
-Player0 hand [SPADES-JACK, SPADES-TEN, DIAMONDS-FOUR, HEARTS-THREE]
-Player1 hand [HEARTS-ACE, SPADES-ACE, SPADES-FOUR, SPADES-THREE]
+Player0 hand [J-S, 10-S, 4-D, 3-H]
+Player1 hand [A-H, A-S, 4-S, 3-S]
 Dealing out to pool...
 Pool: [9-S, 8-C, 7-D, 6-S]
 Player0 plays J-S
@@ -37,8 +37,8 @@ Player1 plays 4-S
 Player1 picks []
 Total Running Scores: Player0 = 13 (2 Surs)        Player1 = 0 (0 Surs)
 Dealing out to players...
-Player0 hand [HEARTS-EIGHT, SPADES-SEVEN, SPADES-FIVE, HEARTS-FOUR]
-Player1 hand [DIAMONDS-KING, SPADES-QUEEN, CLUBS-JACK, CLUBS-SIX]
+Player0 hand [8-H, 7-S, 5-S, 4-H]
+Player1 hand [K-D, Q-S, J-C, 6-C]
 Player0 plays 5-S
 Player0 picks []
 Total Running Scores: Player0 = 13 (2 Surs)        Player1 = 0 (0 Surs)
@@ -64,8 +64,8 @@ Player1 plays Q-S
 Player1 picks []
 Total Running Scores: Player0 = 13 (2 Surs)        Player1 = 1 (0 Surs)
 Dealing out to players...
-Player0 hand [HEARTS-SIX, CLUBS-THREE, DIAMONDS-THREE, SPADES-TWO]
-Player1 hand [HEARTS-KING, DIAMONDS-QUEEN, HEARTS-QUEEN, DIAMONDS-TEN]
+Player0 hand [6-H, 3-C, 3-D, 2-S]
+Player1 hand [K-H, Q-D, Q-H, 10-D]
 Player0 plays 6-H
 Player0 picks []
 Total Running Scores: Player0 = 13 (2 Surs)        Player1 = 1 (0 Surs)
@@ -91,8 +91,8 @@ Player1 plays 10-D
 Player1 picks []
 Total Running Scores: Player0 = 13 (2 Surs)        Player1 = 1 (0 Surs)
 Dealing out to players...
-Player0 hand [DIAMONDS-JACK, CLUBS-NINE, SPADES-EIGHT, CLUBS-FOUR]
-Player1 hand [CLUBS-ACE, CLUBS-KING, HEARTS-JACK, DIAMONDS-SIX]
+Player0 hand [J-D, 9-C, 8-S, 4-C]
+Player1 hand [A-C, K-C, J-H, 6-D]
 Player0 plays J-D
 Player0 picks [J-D, 10-D, 6-H]
 Total Running Scores: Player0 = 17 (2 Surs)        Player1 = 1 (0 Surs)
@@ -118,8 +118,8 @@ Player1 plays J-H
 Player1 picks [J-H, 9-C, 8-S]
 Total Running Scores: Player0 = 18 (2 Surs)        Player1 = 2 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-TEN, HEARTS-NINE, HEARTS-SEVEN, DIAMONDS-FIVE]
-Player1 hand [DIAMONDS-ACE, DIAMONDS-NINE, CLUBS-SEVEN, CLUBS-FIVE]
+Player0 hand [10-C, 9-H, 7-H, 5-D]
+Player1 hand [A-D, 9-D, 7-C, 5-C]
 Player0 plays 5-D
 Player0 picks []
 Total Running Scores: Player0 = 18 (2 Surs)        Player1 = 2 (0 Surs)
@@ -145,8 +145,8 @@ Player1 plays 7-C
 Player1 picks []
 Total Running Scores: Player0 = 18 (2 Surs)        Player1 = 3 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-QUEEN, DIAMONDS-EIGHT, HEARTS-FIVE, DIAMONDS-TWO]
-Player1 hand [SPADES-KING, HEARTS-TEN, CLUBS-TWO, HEARTS-TWO]
+Player0 hand [Q-C, 8-D, 5-H, 2-D]
+Player1 hand [K-S, 10-H, 2-C, 2-H]
 Player0 plays 2-D
 Player0 picks [9-D, 2-D]
 Total Running Scores: Player0 = 18 (2 Surs)        Player1 = 3 (0 Surs)
@@ -177,8 +177,8 @@ Round 1 of the game ends...
 Round 2 of the game starts...
 Total Running Scores: Player0 = 25 (0 Surs)        Player1 = 5 (0 Surs)
 Dealing out to players...
-Player1 hand [DIAMONDS-EIGHT, HEARTS-SEVEN, CLUBS-FIVE, DIAMONDS-THREE]
-Player0 hand [DIAMONDS-TEN, SPADES-SEVEN, DIAMONDS-SIX, DIAMONDS-TWO]
+Player1 hand [8-D, 7-H, 5-C, 3-D]
+Player0 hand [10-D, 7-S, 6-D, 2-D]
 Dealing out to pool...
 Pool: [A-D, Q-C, 10-H, 4-C]
 Player1 plays 7-H
@@ -206,8 +206,8 @@ Player0 plays 7-S
 Player0 picks []
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 5 (0 Surs)
 Dealing out to players...
-Player1 hand [SPADES-KING, SPADES-EIGHT, HEARTS-FOUR, SPADES-TWO]
-Player0 hand [DIAMONDS-QUEEN, HEARTS-QUEEN, SPADES-NINE, SPADES-FOUR]
+Player1 hand [K-S, 8-S, 4-H, 2-S]
+Player0 hand [Q-D, Q-H, 9-S, 4-S]
 Player1 plays 4-H
 Player1 picks [7-S, 4-H]
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 5 (0 Surs)
@@ -233,8 +233,8 @@ Player0 plays 4-S
 Player0 picks []
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 5 (0 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-ACE, SPADES-ACE, CLUBS-JACK, SPADES-JACK]
-Player0 hand [CLUBS-KING, SPADES-QUEEN, CLUBS-EIGHT, CLUBS-SEVEN]
+Player1 hand [A-H, A-S, J-C, J-S]
+Player0 hand [K-C, Q-S, 8-C, 7-C]
 Player1 plays J-S
 Player1 picks [J-S, 10-H, 8-S, 4-S, 2-S]
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 6 (0 Surs)
@@ -260,8 +260,8 @@ Player0 plays 7-C
 Player0 picks []
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 9 (0 Surs)
 Dealing out to players...
-Player1 hand [CLUBS-ACE, DIAMONDS-KING, DIAMONDS-JACK, SPADES-FIVE]
-Player0 hand [HEARTS-NINE, DIAMONDS-SEVEN, HEARTS-FIVE, SPADES-THREE]
+Player1 hand [A-C, K-D, J-D, 5-S]
+Player0 hand [9-H, 7-D, 5-H, 3-S]
 Player1 plays A-C
 Player1 picks []
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 9 (0 Surs)
@@ -287,8 +287,8 @@ Player0 plays 5-H
 Player0 picks []
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 11 (0 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-SIX, SPADES-SIX, HEARTS-THREE, HEARTS-TWO]
-Player0 hand [HEARTS-KING, DIAMONDS-NINE, HEARTS-EIGHT, DIAMONDS-FOUR]
+Player1 hand [6-H, 6-S, 3-H, 2-H]
+Player0 hand [K-H, 9-D, 8-H, 4-D]
 Player1 plays 6-S
 Player1 picks [6-S, 5-S]
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 11 (0 Surs)
@@ -314,8 +314,8 @@ Player0 plays 4-D
 Player0 picks [7-D, 4-D]
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 11 (0 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-JACK, CLUBS-SIX, DIAMONDS-FIVE, CLUBS-TWO]
-Player0 hand [CLUBS-TEN, SPADES-TEN, CLUBS-NINE, CLUBS-THREE]
+Player1 hand [J-H, 6-C, 5-D, 2-C]
+Player0 hand [10-C, 10-S, 9-C, 3-C]
 Player1 plays J-H
 Player1 picks [J-H, 3-H]
 Total Running Scores: Player0 = 29 (0 Surs)        Player1 = 12 (0 Surs)
@@ -346,8 +346,8 @@ Round 2 of the game ends...
 Round 3 of the game starts...
 Total Running Scores: Player0 = 31 (0 Surs)        Player1 = 19 (0 Surs)
 Dealing out to players...
-Player0 hand [DIAMONDS-JACK, CLUBS-TEN, HEARTS-FOUR, SPADES-TWO]
-Player1 hand [HEARTS-KING, SPADES-QUEEN, SPADES-NINE, DIAMONDS-FOUR]
+Player0 hand [J-D, 10-C, 4-H, 2-S]
+Player1 hand [K-H, Q-S, 9-S, 4-D]
 Dealing out to pool...
 Pool: [K-D, Q-H, 9-D, 7-D]
 Player0 plays J-D
@@ -375,8 +375,8 @@ Player1 plays 4-D
 Player1 picks []
 Total Running Scores: Player0 = 32 (0 Surs)        Player1 = 19 (0 Surs)
 Dealing out to players...
-Player0 hand [DIAMONDS-ACE, SPADES-KING, HEARTS-JACK, DIAMONDS-EIGHT]
-Player1 hand [SPADES-ACE, HEARTS-TEN, CLUBS-EIGHT, DIAMONDS-THREE]
+Player0 hand [A-D, K-S, J-H, 8-D]
+Player1 hand [A-S, 10-H, 8-C, 3-D]
 Player0 plays 8-D
 Player0 picks []
 Total Running Scores: Player0 = 32 (0 Surs)        Player1 = 19 (0 Surs)
@@ -402,8 +402,8 @@ Player1 plays 10-H
 Player1 picks []
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 19 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-KING, DIAMONDS-TEN, CLUBS-THREE, HEARTS-THREE]
-Player1 hand [DIAMONDS-QUEEN, SPADES-EIGHT, SPADES-SEVEN, SPADES-THREE]
+Player0 hand [K-C, 10-D, 3-C, 3-H]
+Player1 hand [Q-D, 8-S, 7-S, 3-S]
 Player0 plays K-C
 Player0 picks [K-C, K-S]
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 19 (0 Surs)
@@ -429,8 +429,8 @@ Player1 plays 8-S
 Player1 picks [8-S, 3-C]
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 19 (0 Surs)
 Dealing out to players...
-Player0 hand [HEARTS-EIGHT, CLUBS-SIX, DIAMONDS-FIVE, SPADES-FOUR]
-Player1 hand [CLUBS-ACE, HEARTS-ACE, CLUBS-FOUR, CLUBS-TWO]
+Player0 hand [8-H, 6-C, 5-D, 4-S]
+Player1 hand [A-C, A-H, 4-C, 2-C]
 Player0 plays 4-S
 Player0 picks [7-S, 4-S]
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 19 (0 Surs)
@@ -456,8 +456,8 @@ Player1 plays A-C
 Player1 picks [A-C, 10-H]
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 26 (0 Surs)
 Dealing out to players...
-Player0 hand [SPADES-TEN, HEARTS-SEVEN, DIAMONDS-SIX, DIAMONDS-TWO]
-Player1 hand [CLUBS-JACK, CLUBS-NINE, SPADES-FIVE, HEARTS-TWO]
+Player0 hand [10-S, 7-H, 6-D, 2-D]
+Player1 hand [J-C, 9-C, 5-S, 2-H]
 Player0 plays 6-D
 Player0 picks []
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 26 (0 Surs)
@@ -483,8 +483,8 @@ Player1 plays J-C
 Player1 picks [J-C, 10-S, 8-H, 7-H, 6-D]
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 27 (0 Surs)
 Dealing out to players...
-Player0 hand [SPADES-JACK, CLUBS-SEVEN, HEARTS-SIX, SPADES-SIX]
-Player1 hand [CLUBS-QUEEN, HEARTS-NINE, CLUBS-FIVE, HEARTS-FIVE]
+Player0 hand [J-S, 7-C, 6-H, 6-S]
+Player1 hand [Q-C, 9-H, 5-C, 5-H]
 Player0 plays J-S
 Player0 picks []
 Total Running Scores: Player0 = 35 (0 Surs)        Player1 = 27 (0 Surs)
@@ -515,8 +515,8 @@ Round 3 of the game ends...
 Round 4 of the game starts...
 Total Running Scores: Player0 = 36 (0 Surs)        Player1 = 34 (0 Surs)
 Dealing out to players...
-Player1 hand [CLUBS-KING, SPADES-KING, DIAMONDS-FOUR, CLUBS-TWO]
-Player0 hand [SPADES-NINE, SPADES-SIX, SPADES-FIVE, SPADES-TWO]
+Player1 hand [K-C, K-S, 4-D, 2-C]
+Player0 hand [9-S, 6-S, 5-S, 2-S]
 Dealing out to pool...
 Pool: [A-S, 6-H, 3-H, 2-H]
 Player1 plays K-C
@@ -544,8 +544,8 @@ Player0 plays 2-S
 Player0 picks []
 Total Running Scores: Player0 = 38 (0 Surs)        Player1 = 34 (0 Surs)
 Dealing out to players...
-Player1 hand [CLUBS-ACE, CLUBS-JACK, CLUBS-NINE, DIAMONDS-THREE]
-Player0 hand [HEARTS-QUEEN, SPADES-TEN, DIAMONDS-EIGHT, HEARTS-SEVEN]
+Player1 hand [A-C, J-C, 9-C, 3-D]
+Player0 hand [Q-H, 10-S, 8-D, 7-H]
 Player1 plays 3-D
 Player1 picks []
 Total Running Scores: Player0 = 38 (0 Surs)        Player1 = 34 (0 Surs)
@@ -571,8 +571,8 @@ Player0 plays Q-H
 Player0 picks []
 Total Running Scores: Player0 = 39 (0 Surs)        Player1 = 35 (0 Surs)
 Dealing out to players...
-Player1 hand [DIAMONDS-QUEEN, CLUBS-FIVE, DIAMONDS-FIVE, CLUBS-THREE]
-Player0 hand [DIAMONDS-JACK, CLUBS-TEN, CLUBS-EIGHT, HEARTS-FOUR]
+Player1 hand [Q-D, 5-C, 5-D, 3-C]
+Player0 hand [J-D, 10-C, 8-C, 4-H]
 Player1 plays 3-C
 Player1 picks [A-C, 7-H, 3-C]
 Total Running Scores: Player0 = 39 (0 Surs)        Player1 = 36 (0 Surs)
@@ -599,8 +599,8 @@ Player0 plays 8-C
 Player0 picks []
 Total Running Scores: Player0 = 40 (0 Surs)        Player1 = 41 (1 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-ACE, HEARTS-KING, SPADES-SEVEN, DIAMONDS-SIX]
-Player0 hand [SPADES-QUEEN, SPADES-JACK, HEARTS-EIGHT, CLUBS-SEVEN]
+Player1 hand [A-H, K-H, 7-S, 6-D]
+Player0 hand [Q-S, J-S, 8-H, 7-C]
 Player1 plays K-H
 Player1 picks []
 Total Running Scores: Player0 = 40 (0 Surs)        Player1 = 41 (1 Surs)
@@ -626,8 +626,8 @@ Player0 plays Q-S
 Player0 picks []
 Total Running Scores: Player0 = 41 (0 Surs)        Player1 = 41 (1 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-NINE, DIAMONDS-SEVEN, CLUBS-SIX, HEARTS-FIVE]
-Player0 hand [DIAMONDS-KING, CLUBS-FOUR, SPADES-FOUR, SPADES-THREE]
+Player1 hand [9-H, 7-D, 6-C, 5-H]
+Player0 hand [K-D, 4-C, 4-S, 3-S]
 Player1 plays 9-H
 Player1 picks []
 Total Running Scores: Player0 = 41 (0 Surs)        Player1 = 41 (1 Surs)
@@ -653,8 +653,8 @@ Player0 plays K-D
 Player0 picks [K-D, K-H]
 Total Running Scores: Player0 = 49 (0 Surs)        Player1 = 41 (1 Surs)
 Dealing out to players...
-Player1 hand [CLUBS-QUEEN, DIAMONDS-NINE, SPADES-EIGHT, DIAMONDS-TWO]
-Player0 hand [DIAMONDS-ACE, HEARTS-JACK, DIAMONDS-TEN, HEARTS-TEN]
+Player1 hand [Q-C, 9-D, 8-S, 2-D]
+Player0 hand [A-D, J-H, 10-D, 10-H]
 Player1 plays 9-D
 Player1 picks []
 Total Running Scores: Player0 = 49 (0 Surs)        Player1 = 41 (1 Surs)
@@ -685,8 +685,8 @@ Round 4 of the game ends...
 Round 5 of the game starts...
 Total Running Scores: Player0 = 50 (0 Surs)        Player1 = 45 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-QUEEN, DIAMONDS-SEVEN, SPADES-SEVEN, HEARTS-FOUR]
-Player1 hand [SPADES-ACE, SPADES-KING, HEARTS-SIX, CLUBS-TWO]
+Player0 hand [Q-C, 7-D, 7-S, 4-H]
+Player1 hand [A-S, K-S, 6-H, 2-C]
 Dealing out to pool...
 Pool: [A-D, 10-C, 9-S, 4-S]
 Player0 plays 4-H
@@ -714,8 +714,8 @@ Player1 plays 2-C
 Player1 picks [9-S, 2-C]
 Total Running Scores: Player0 = 50 (0 Surs)        Player1 = 49 (0 Surs)
 Dealing out to players...
-Player0 hand [HEARTS-JACK, HEARTS-TEN, HEARTS-SEVEN, CLUBS-FOUR]
-Player1 hand [SPADES-JACK, CLUBS-NINE, HEARTS-FIVE, DIAMONDS-TWO]
+Player0 hand [J-H, 10-H, 7-H, 4-C]
+Player1 hand [J-S, 9-C, 5-H, 2-D]
 Player0 plays J-H
 Player0 picks [J-H, 7-D]
 Total Running Scores: Player0 = 51 (0 Surs)        Player1 = 49 (0 Surs)
@@ -741,8 +741,8 @@ Player1 plays 9-C
 Player1 picks [9-C, 2-D]
 Total Running Scores: Player0 = 51 (0 Surs)        Player1 = 49 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-JACK, DIAMONDS-EIGHT, HEARTS-EIGHT, HEARTS-TWO]
-Player1 hand [HEARTS-ACE, CLUBS-KING, SPADES-TEN, SPADES-TWO]
+Player0 hand [J-C, 8-D, 8-H, 2-H]
+Player1 hand [A-H, K-C, 10-S, 2-S]
 Player0 plays 8-H
 Player0 picks []
 Total Running Scores: Player0 = 51 (0 Surs)        Player1 = 49 (0 Surs)
@@ -768,8 +768,8 @@ Player1 plays 2-S
 Player1 picks []
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 50 (0 Surs)
 Dealing out to players...
-Player0 hand [DIAMONDS-NINE, HEARTS-NINE, SPADES-EIGHT, DIAMONDS-FOUR]
-Player1 hand [DIAMONDS-QUEEN, HEARTS-QUEEN, DIAMONDS-TEN, CLUBS-EIGHT]
+Player0 hand [9-D, 9-H, 8-S, 4-D]
+Player1 hand [Q-D, Q-H, 10-D, 8-C]
 Player0 plays 9-D
 Player0 picks [9-D, 2-H]
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 50 (0 Surs)
@@ -795,8 +795,8 @@ Player1 plays 10-D
 Player1 picks []
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 50 (0 Surs)
 Dealing out to players...
-Player0 hand [DIAMONDS-KING, DIAMONDS-SIX, SPADES-SIX, HEARTS-THREE]
-Player1 hand [SPADES-QUEEN, DIAMONDS-JACK, CLUBS-SIX, DIAMONDS-FIVE]
+Player0 hand [K-D, 6-D, 6-S, 3-H]
+Player1 hand [Q-S, J-D, 6-C, 5-D]
 Player0 plays 6-D
 Player0 picks []
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 50 (0 Surs)
@@ -822,8 +822,8 @@ Player1 plays Q-S
 Player1 picks [Q-H, Q-S]
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 54 (0 Surs)
 Dealing out to players...
-Player0 hand [CLUBS-ACE, HEARTS-KING, CLUBS-SEVEN, SPADES-FIVE]
-Player1 hand [CLUBS-FIVE, CLUBS-THREE, DIAMONDS-THREE, SPADES-THREE]
+Player0 hand [A-C, K-H, 7-C, 5-S]
+Player1 hand [5-C, 3-C, 3-D, 3-S]
 Player0 plays 7-C
 Player0 picks []
 Total Running Scores: Player0 = 53 (0 Surs)        Player1 = 54 (0 Surs)
@@ -853,8 +853,8 @@ Round 5 of the game ends...
 Round 6 of the game starts...
 Total Running Scores: Player0 = 54 (0 Surs)        Player1 = 61 (0 Surs)
 Dealing out to players...
-Player1 hand [SPADES-FIVE, HEARTS-FOUR, DIAMONDS-THREE, CLUBS-TWO]
-Player0 hand [HEARTS-KING, CLUBS-TEN, CLUBS-SEVEN, HEARTS-FIVE]
+Player1 hand [5-S, 4-H, 3-D, 2-C]
+Player0 hand [K-H, 10-C, 7-C, 5-H]
 Dealing out to pool...
 Pool: [8-D, 6-S, 5-C, 2-S]
 Player1 plays 3-D
@@ -882,8 +882,8 @@ Player0 plays 5-H
 Player0 picks []
 Total Running Scores: Player0 = 54 (0 Surs)        Player1 = 63 (0 Surs)
 Dealing out to players...
-Player1 hand [CLUBS-ACE, HEARTS-NINE, DIAMONDS-FIVE, SPADES-THREE]
-Player0 hand [CLUBS-KING, SPADES-KING, DIAMONDS-JACK, HEARTS-TEN]
+Player1 hand [A-C, 9-H, 5-D, 3-S]
+Player0 hand [K-C, K-S, J-D, 10-H]
 Player1 plays 3-S
 Player1 picks []
 Total Running Scores: Player0 = 54 (0 Surs)        Player1 = 63 (0 Surs)
@@ -909,8 +909,8 @@ Player0 plays 10-H
 Player0 picks []
 Total Running Scores: Player0 = 55 (0 Surs)        Player1 = 64 (0 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-ACE, DIAMONDS-KING, SPADES-JACK, CLUBS-FOUR]
-Player0 hand [CLUBS-QUEEN, HEARTS-SEVEN, DIAMONDS-FOUR, HEARTS-THREE]
+Player1 hand [A-H, K-D, J-S, 4-C]
+Player0 hand [Q-C, 7-H, 4-D, 3-H]
 Player1 plays K-D
 Player1 picks [K-D, K-S]
 Total Running Scores: Player0 = 55 (0 Surs)        Player1 = 64 (0 Surs)
@@ -936,8 +936,8 @@ Player0 plays 4-D
 Player0 picks []
 Total Running Scores: Player0 = 55 (0 Surs)        Player1 = 65 (0 Surs)
 Dealing out to players...
-Player1 hand [DIAMONDS-ACE, SPADES-EIGHT, DIAMONDS-SIX, HEARTS-SIX]
-Player0 hand [SPADES-QUEEN, HEARTS-JACK, SPADES-SEVEN, DIAMONDS-TWO]
+Player1 hand [A-D, 8-S, 6-D, 6-H]
+Player0 hand [Q-S, J-H, 7-S, 2-D]
 Player1 plays 6-D
 Player1 picks [A-H, 6-D, 4-D]
 Total Running Scores: Player0 = 55 (0 Surs)        Player1 = 66 (0 Surs)
@@ -963,8 +963,8 @@ Player0 plays Q-S
 Player0 picks [Q-C, Q-S]
 Total Running Scores: Player0 = 56 (0 Surs)        Player1 = 66 (0 Surs)
 Dealing out to players...
-Player1 hand [DIAMONDS-QUEEN, CLUBS-JACK, HEARTS-EIGHT, SPADES-FOUR]
-Player0 hand [SPADES-ACE, DIAMONDS-NINE, SPADES-NINE, DIAMONDS-SEVEN]
+Player1 hand [Q-D, J-C, 8-H, 4-S]
+Player0 hand [A-S, 9-D, 9-S, 7-D]
 Player1 plays 8-H
 Player1 picks []
 Total Running Scores: Player0 = 56 (0 Surs)        Player1 = 66 (0 Surs)
@@ -990,8 +990,8 @@ Player0 plays 9-S
 Player0 picks []
 Total Running Scores: Player0 = 58 (0 Surs)        Player1 = 67 (0 Surs)
 Dealing out to players...
-Player1 hand [HEARTS-QUEEN, SPADES-TEN, CLUBS-EIGHT, CLUBS-THREE]
-Player0 hand [DIAMONDS-TEN, CLUBS-NINE, CLUBS-SIX, HEARTS-TWO]
+Player1 hand [Q-H, 10-S, 8-C, 3-C]
+Player0 hand [10-D, 9-C, 6-C, 2-H]
 Player1 plays Q-H
 Player1 picks [Q-D, Q-H]
 Total Running Scores: Player0 = 58 (0 Surs)        Player1 = 67 (0 Surs)

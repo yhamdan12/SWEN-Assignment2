@@ -97,7 +97,7 @@ public class Pasur
             return;
         gameStarted = true;
 
-        LogController.getInstance().logString("Game Starts...");
+        LogController.getInstance().logGameStart();
 
         Player winner = null;
 
@@ -108,7 +108,7 @@ public class Pasur
         while(winner == null)
         {
             roundOfGame++;
-            LogController.getInstance().logString("Round " + roundOfGame + " of the game starts...");
+            LogController.getInstance().logRoundStart(roundOfGame);
 
             boolean isFirstRound = true;
             reset();
@@ -182,7 +182,7 @@ public class Pasur
                                 // player has a sur. If the other players have a sur this sur will be used to remove one of their surs.
                                 // otherwise it will be added as a sur for this player
 
-                                LogController.getInstance().logString(player.toString() + " scores a sur");
+                                LogController.getInstance().logSurScore(player);
                                 int nOtherPlayersWithSure = 0;
                                 for(int r = 0; r < nPlayers; r++)
                                 {
@@ -236,7 +236,7 @@ public class Pasur
 
                     List<Card> poolCards = poolHand.getCardList();
                     if(!poolCards.isEmpty())
-                        LogController.getInstance().logString(lastPlayerWhoPickedAcard + " picks " + toString(poolCards) + " at the end of this round of game");
+                        LogController.getInstance().logPlayerPickCard(lastPlayerWhoPickedAcard,toString(poolCards));
                     cardList.clear();
                     for(int i = 0; i < poolCards.size(); i++)
                     {
@@ -258,7 +258,7 @@ public class Pasur
             if(currentStartingPlayerPos == nPlayers)
                 currentStartingPlayerPos = 0;
 
-            LogController.getInstance().logString("Round " + roundOfGame + " of the game ends...");
+            LogController.getInstance().logRoundEnd(roundOfGame);
 
             List<Player> playersWithEnoughScore = null;
             for(int i = 0; i < nPlayers; i++)
@@ -294,12 +294,12 @@ public class Pasur
             }
         }
 
-        LogController.getInstance().logString("Game ends...");
+        LogController.getInstance().logGameEnd();
         String winningText = winner.toString() + " is the winner!";
         LogController.getInstance().logAll();
         propertyChangePublisher.firePropertyChange(ON_GAME_END, null, winningText);
 
-        LogController.getInstance().logString(winningText);
+        LogController.getInstance().logWinningText(winningText);
     }
 
     private boolean isAsur(Card playedCard, boolean isLastRound)
@@ -349,7 +349,7 @@ public class Pasur
 
     private void dealingOutToPlayers(int currentStartingPlayerPos)
     {
-        LogController.getInstance().logString("Dealing out to players...");
+        LogController.getInstance().logDealingToPlayers();
         List<Card> cardList = new ArrayList<>(1);
         for (int i = 0, k = currentStartingPlayerPos; i < nPlayers; i++)
         {
@@ -375,13 +375,13 @@ public class Pasur
             k++;
             if(k == nPlayers)
                 k = 0;
-            LogController.getInstance().logHand(player);
+            LogController.getInstance().logHand(player, toString(player.getHand().getCardList()));
         }
     }
 
     private void dealingOutToPool()
     {
-        LogController.getInstance().logString("Dealing out to pool...");
+        LogController.getInstance().logDealingToPool();
         List<Card> cardList = new ArrayList<>(1);
         for (int i = 0; i < N_HAND_CARDS; i++)
         {
@@ -404,7 +404,7 @@ public class Pasur
                 transfer(cardList, poolHand, true);
             }
         }
-        LogController.getInstance().logString("Pool: "+toString(poolHand.getCardList()));
+        LogController.getInstance().logPool(toString(poolHand.getCardList()));
     }
 
     private void transfer(List<Card> cards, Hand h, boolean sortAfterTransfer)
