@@ -18,7 +18,7 @@ public abstract class Player
     protected Hand pickedCards;
     protected Hand surs;
 
-    //MODIFICATION
+    /** Variables added for Scoring Feature */
     private RuleFactory ruleFactory;
     private int totalScore = 0;
     private int runningScore = 0;
@@ -46,7 +46,7 @@ public abstract class Player
 
         return new AbstractMap.SimpleEntry<>(playedCard, cardsToPick);
     }
-    //modified
+
     protected Set<Card> pickCards(Hand pool, Card playedCard)
     {
         List<Card> poolCards = pool.getCardList();
@@ -222,9 +222,9 @@ public abstract class Player
         this.surs = surs;
     }
 
+    /** Function modified to update total score after the each round ends*/
     public void reset()
     {
-        //added
         totalScore += runningScore;
 
         hand.removeAll(false);
@@ -237,14 +237,14 @@ public abstract class Player
         return "Player" + id;
     }
 
-    //Modified
+    /** Function modified to include scoring feature */
     public int getScore()
     {
         updateScore();
         return totalScore + runningScore;
     }
 
-    //added
+    /** Function added to aid scoring feature */
     public void updateScore(){
         runningScore = ruleFactory.getInstance().getRule(getPickedCards(), getSurs()).getScore();
     }
