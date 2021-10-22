@@ -1,7 +1,8 @@
 package pasur;
 
-public class TwoClubsRule implements ScoreRule{
+public class TwoClubsRule extends clubCardRules {
+    private static final int TWO_CLUBS_SCORE = 2;
     public int getScore() {
-        return 2;
+        return TWO_CLUBS_SCORE;
     }
 }

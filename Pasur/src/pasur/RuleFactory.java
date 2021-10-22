@@ -4,9 +4,9 @@ import ch.aplu.jcardgame.*; // Added
 import java.util.ArrayList;
 
 public class RuleFactory {
-    private static RuleFactory instance; //= null?
+    private static RuleFactory instance;
+    private static final int MAJORITY_CLUBS = 7;
 
-    //Lazy Initialisation ?
     public static synchronized RuleFactory getInstance(){
         if (instance == null){
             instance = new RuleFactory();
@@ -14,12 +14,20 @@ public class RuleFactory {
         return instance;
     }
 
+    /** Create the relevant composite rule, based on the players cards*/
     public ScoreRule getRule(Hand pickedCards, Hand surs){
         CompositeRule compositeRule = new CompositeRule();
+
+        // Combine all the player's cards (picked cards and surs)
+        // into one list for easy iteration
         ArrayList<Card> allCards = new ArrayList<>();
         allCards.addAll(pickedCards.getCardList());
         allCards.addAll(surs.getCardList());
+
         int totalClubs = 0;
+
+        // Check each card against the rules and add relevant rules
+        // to the composite rule
         for(Card card : allCards){
             if(card.getRank() == Rank.ACE){
                 compositeRule.add(new AceRule());
@@ -42,10 +50,10 @@ public class RuleFactory {
                 compositeRule.add(new SurRule());
             }
         }
-        // MAGIC NO.
-        if (totalClubs >= 7){
+        if (totalClubs >= MAJORITY_CLUBS){
             compositeRule.add(new MostClubsRule());
         }
+
         return compositeRule;
     }
 }
