@@ -1,7 +1,8 @@
 package pasur;
 
-public class AceRule implements ScoreRule{
+public class AceRule extends courtCardRules {
+    private static final int ACE_SCORE = 1;
     public int getScore() {
-        return 1; //Magic Number
+        return ACE_SCORE;
     }
 }
