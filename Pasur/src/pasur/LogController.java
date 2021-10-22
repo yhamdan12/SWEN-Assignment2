@@ -31,10 +31,10 @@ public class LogController {
 
     //This logs the initial settings of the game, allowing for a variable number of players
     public static void gameSettings(int seed, boolean animate, ArrayList<String> players ){
-        log += String.format("#Seed %d\n", seed);
-        log += String.format("#Animate %s\n", Boolean.toString(animate));
+        log += String.format("#Seed: %d\n", seed);
+        log += String.format("#Animate: %s\n", Boolean.toString(animate));
         for(int i = 0; i<players.size();i++){
-            log += String.format("#Player %d: %s\n", i, players.get(i));
+            log += String.format("#Player%d: %s\n", i, players.get(i));
         }
     }
 
@@ -55,7 +55,7 @@ public class LogController {
 
     //Log the start of the game
     public static void logGameStart(){
-        log += String.format("Game Starts...\n");
+        log += String.format("Game starts...\n");
     }
     //Log the end of the game
     public static void logGameEnd(){

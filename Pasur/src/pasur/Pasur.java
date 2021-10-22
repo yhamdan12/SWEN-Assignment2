@@ -295,11 +295,12 @@ public class Pasur
         }
 
         LogController.getInstance().logGameEnd();
-        String winningText = winner.toString() + " is the winner!";
+        String winningText = winner.toString() + " is the winner!\n";
+        LogController.getInstance().logWinningText(winningText);
         LogController.getInstance().logAll();
         propertyChangePublisher.firePropertyChange(ON_GAME_END, null, winningText);
 
-        LogController.getInstance().logWinningText(winningText);
+
     }
 
     private boolean isAsur(Card playedCard, boolean isLastRound)
